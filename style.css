@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+}
+.header{
+    background-color: #e5f7f7;
+    background-image: url('images/background.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    
+    
+}
+/* Header and nav Style */
+.nav-title{
+    font-weight: 800;
+    font-size: 60px;
+}
+.text-primary{
+    color: rgb(2, 207, 207);
+   outline: black;
+}
+nav ul  {
+    list-style: none;
+ display: flex;
+ align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+nav li {
+    margin-left: 25px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+.primary-btn{
+    padding: 8px 24px;
+    background-color: rgb(2, 207, 207);
+    border: none;
+    border-radius: 5px;
+    
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    
+}
+.kiron{
+    height: 500px;
+   margin-left: 1000px;
+}
+/* Banner Styles */
+.banner{margin: 0px 150px;
+display: flex;
+align-items: center;
+}
+.banner-title{
+    color: rgb(2, 207, 207);
+    font-weight: 600;
+    font-size: 60px;
+    display: flex;
+}
+.banner-sub-title{
+  font-weight: 600;
+  font-size: 45px;  
+}
+.banner-dis{
+    color: rgb(214, 117, 117);
+    margin-bottom: 40px;
+}
+
