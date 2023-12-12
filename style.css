@@ -38,7 +38,7 @@ nav a {
 }
 .primary-btn{
     padding: 8px 24px;
-    background-color: rgb(2, 207, 207);
+    background-color: rgb(2, 207,207);
     border: none;
     border-radius: 5px;
     
@@ -70,3 +70,16 @@ align-items: center;
     margin-bottom: 40px;
 }
 
+.youtube{
+    padding: 8px 24px;
+    background-color: rgb(255, 0, 0);
+    border: none;
+    border-radius: 5px; 
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.Table_01{
+    margin-top: 100px;
+
+    margin-left: 70%;
+}
