@@ -4,10 +4,9 @@
 }
 .header{
     background-color: #e5f7f7;
-    background-image: url('images/background.png');
+    background-image: url(images/background.png),url(images/developer.png) ;
+    background-position: bottom right , left;
     background-repeat: no-repeat;
-    background-position: right bottom;
-    
     
 }
 /* Header and nav Style */
@@ -81,5 +80,9 @@ align-items: center;
 .Table_01{
     margin-top: 100px;
 
-    margin-left: 70%;
+    margin-left: 40%;
+}
+.developer-img{
+    display: flex;
+align-items: center;
 }
