@@ -86,3 +86,9 @@ align-items: center;
     display: flex;
 align-items: center;
 }
+.about{
+    background-color: #e5f7f7;
+    margin-left: 410px;
+    margin-top: 50px;
+    text-align: center;
+}
