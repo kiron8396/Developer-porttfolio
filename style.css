@@ -205,3 +205,16 @@ section{
 .contact .primary-btn {
     color:rgb(255, 255, 255) ;
 }
+.call{
+    padding: 7px 24px;
+    background-color: transparent;
+    border: 2px solid rgb(0, 207, 207);
+    border-radius: 5px;
+    margin-left: 10px;
+    color: rgb(0, 207, 207);
+    font-weight: bold;
+
+}
+.primary-btn .call{
+    gap: 10px;
+}
