@@ -4,10 +4,10 @@
 }
 .header{
     background-color: #d5f8f8;
-    background-image: url(images/background.png),url(images/developer.png) ;
-    background-position: bottom right , left;
+    background-image: url(images/background.png), url(images/developer1.png);
+    background-position: bottom right , left ;
     background-repeat: no-repeat;
-    
+    margin-left: 5px;
     
 }
 /* Header and nav Style */
@@ -51,7 +51,8 @@ nav a {
    margin-left: auto;
 }
 /* Banner Styles */
-.banner{margin: 0px 150px;
+.banner{margin-right:  150px;
+    margin-left: 100px;
 display: flex;
 align-items: center;
 }
