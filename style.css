@@ -3,7 +3,7 @@
     font-family: 'Kanit', sans-serif;
 }
 .header{
-    background-color: #e5f7f7;
+    background-color: #d5f8f8;
     background-image: url(images/background.png),url(images/developer.png) ;
     background-position: bottom right , left;
     background-repeat: no-repeat;
@@ -94,7 +94,7 @@ main{
 }
 .about{
    margin: 130px;
-   background-color: #e5f7f7;
+   background-color: #c9ebeb;
    border-radius: 15px;
    padding: 130px 150px;
    text-align: center;
@@ -118,9 +118,9 @@ font-size: 18px;
     padding-top: 25px;
 }
 .info-des{
-    font-size: 20;
-    font-weight: 700;
-    color: rgb(15, 0, 0);
+    font-size: 25;
+   
+    color: rgb(136, 136, 136);
 }
 .info , .info-des {
    
@@ -150,5 +150,36 @@ color: rgb(133, 132, 132);
 .skill{
     padding: 30px;
     background-color: #faffff;
-   box-shadow: 0 5px 50px rgb(226, 226, 226);
+   box-shadow: 0 10px  50px rgba(56, 56, 56, 0.301);
+}
+section{
+    padding: 30px;
+}
+.section-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+/* resume style */
+
+.resume-content{
+    display: flex;
+    gap: 18px;
+}
+ .resume.title{
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(0, 207, 207);
+    margin-bottom: 10px;
+}
+.resume .sub-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(100, 100, 100);
+    margin-bottom: 20px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
