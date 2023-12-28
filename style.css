@@ -5,7 +5,7 @@
 .header{
     background-color: #d5f8f8;
     background-image: url(images/background.png), url(images/developer1.png);
-    background-position: bottom right , left ;
+    background-position: right bottom , left ;
     background-repeat: no-repeat;
     margin-left: 5px;
     
@@ -22,7 +22,7 @@
 nav ul  {
     list-style: none;
  display: flex;
- align-items: center;
+ align-items: flex-end;
 }
 nav{
     display: flex;
@@ -218,4 +218,41 @@ section{
 }
 .primary-btn .call{
     gap: 10px;
+}
+@media screen and (max-width:576px){
+    .nav, 
+    .skill-cont , 
+     .resume-content ,
+      .about-info-continer , 
+      .contact-body , 
+      .banner {
+        flex-direction: column;
+        padding: 10px 20px;
+        gap: 20px;
+    }
+    .about{
+        padding: 10px;
+        margin: 10px 10px;
+    }
+    .contact{
+        padding: 10px;
+    }
+    .header{
+        background-image: none;
+    }
+    nav{
+        justify-content: left;
+        margin-left: 10px;
+    }
+    .kiron{
+        height:250px;
+       margin-left: auto;
+       
+}
+nav ul {
+    flex-direction: column;
+    gap: 20px;
+}
+
+
 }
