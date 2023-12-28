@@ -252,9 +252,10 @@ section{
 nav ul {
     flex-direction: column;
     gap: 20px;
-    justify-content: space-between;
-   padding-left: 50%;
+  
 }
-
+nav{
+    margin-right: 10px ;
+}
 
 }
