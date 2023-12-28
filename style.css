@@ -245,13 +245,15 @@ section{
         margin-left: 10px;
     }
     .kiron{
-        height:250px;
-       margin-left: auto;
+        height:200px;
+       margin: 0;
        
 }
 nav ul {
     flex-direction: column;
     gap: 20px;
+    justify-content: space-between;
+   padding-left: 50%;
 }
 
 
